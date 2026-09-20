@@ -20,5 +20,7 @@ public class Main {
         c = 30;
         long g = (long) c;
         System.out.println(c);
+        int first = 15;
+        System.out.println(first);
     }
 }
