@@ -19,8 +19,6 @@ public class Main {
 
         c = 30;
         long g = (long) c;
-        System.out.println(g);
-        a = 45
-        short l = (short)
+        System.out.println(c);
     }
 }
