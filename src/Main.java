@@ -4,7 +4,6 @@ public class Main {
     public static void main(String[] args) {
 
         // 1-ci tapşırıq
-        /*
         Scanner scanner = new Scanner(System.in);
 
         System.out.print("Bir rəqəm daxil edin: ");
@@ -15,9 +14,8 @@ public class Main {
         else{
             System.out.println("Bu tək ədəddir");
         }
-        */
+
         // 3- cü tapşırıq
-        /*
         Scanner a = new Scanner(System.in);
         System.out.println("Balınızı daxil edin:");
         int bal = a.nextInt();
@@ -39,11 +37,11 @@ public class Main {
         else{
             System.out.println("Siz kəsilmisiniz");
         }
-         */
+
         // 5 - ci tapşırıq
-        Scanner a = new Scanner(System.in);
+        Scanner ab = new Scanner(System.in);
         System.out.println("Birinci rəqəmi daxil edin:");
-        int firstnumber = a.nextInt();
+        int firstnumber = ab.nextInt();
         Scanner b = new Scanner(System.in);
         System.out.println("İkinci rəqəmi daxil edin:");
         int secondnumber = b.nextInt();
