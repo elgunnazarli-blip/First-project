@@ -5,57 +5,50 @@ public class Main {
 
         // 1 - ci tapşırıq
 
-        int a = 0;
-        for(int i=1;i<=100;i++){
-            System.out.println(a = a + i);
+        int [] arr = {1,2,3,4,5,6,7,8,9,10};
+        for(int i = 0;i < arr.length;i++){
+            System.out.println(arr[i]);
         }
 
 
         // 2 - ci tapşırıq
 
-        for(int i=0; i<=50; i+=2){
-            System.out.println(i);
+        int [] numbers = {1,5,3,6,12,24,65,23,41,10};
+        int sum = 0;
+        for(int i = 0;i < numbers.length;i++){
+            sum = sum + i;
         }
+        System.out.println(sum);
 
-
-        // 3 - cü tapşırıq
-
-
-
-        // 4 - ci tapşırıq
-
-        for(int i=0;i<=5;i++){
-            System.out.println("Salam");
-        }
 
 
         // 5 - ci tapşırıq
 
-        for(int i=10; i>=1; i--){
-            System.out.println(i);
-        }
-
-
-        // 6 - ci tapşırıq
-
-        Scanner ab = new Scanner(System.in);
-        System.out.println("Ədəd daxil edin:");
-        int number = ab.nextInt();
-        for(int i = 1; i <= number; i++){
-            System.out.println(i);
+        int [] number = {4,7,21,6,12,54,65,93,42,12};
+        for (int i = number.length - 1;i>=0;i--){
+            System.out.println(number[i]);
         }
 
 
         // 7 - ci tapşırıq
-        Scanner eded = new Scanner(System.in);
-        System.out.println("Ədəd daxil edin:");
-        int numbers = eded.nextInt();
-
-        int factorial = 1;
-
-        for(int i = 1; i <= numbers; i++){
-            factorial = factorial * i;
-            System.out.println(factorial);
+        int [][] matris = {
+                {1,2,3},
+                {4,5,6},
+                {7,8,9}
+        };
+        for (int i = 0;i< matris.length;i++){
+            System.out.println(matris[i][i]);
         }
+
+        // 9 - ci tapşırıq
+        for (int i = 1; i <= 5; i++) {
+
+            for (int j = 1; j <= i; j++) {
+                System.out.print("*");
+            }
+
+            System.out.println();
+        }
+
     }
 }
